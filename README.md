@@ -1,0 +1,1 @@
+# stonica-group-inc
