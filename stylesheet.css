@@ -85,8 +85,15 @@ p.text-body-emphasis {
     padding: initial !important;
 }
 
+.services-child {
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .instagram {
     padding-top: initial !important;
+    text-align: center;
 }
 
 .instagram-btn {
