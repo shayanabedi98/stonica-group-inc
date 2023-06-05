@@ -1,0 +1,22 @@
+.about {
+    color: white !important;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.about img {
+    border: 3px solid white;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about p {
+    margin-top: 45px;
+    font-weight: 500;
+}

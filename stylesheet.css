@@ -9,22 +9,29 @@ p {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, .2) !important;
+    background-color: rgb(0, 0, 0, 0) !important;
+    background-image: linear-gradient(to right,black, rgba(0, 0, 0, .0));
     height: 100px;
     margin: auto;
 }
- .heading {
+
+.logo {
+    height: 100px;
+}
+
+.heading {
     background-color: rgba(0, 0, 0, 0) !important;
     position: absolute;
     width: 100%;
-    margin-top: 150px;
+    margin: 150px auto auto 0 !important;
     z-index: 1;
 }
 
 h1.slab-heading {
     color: rgba(0, 0, 0, 7) !important;
-    margin-top: 150px;
+
     font-size: 50px;
+    transform: translate(0, 100px);
 }
 
 p.text-body-emphasis {
@@ -74,6 +81,14 @@ p.text-body-emphasis {
     padding: 10px;
 }
 
+.services {
+    padding: initial !important;
+}
+
+.instagram {
+    padding-top: initial !important;
+}
+
 .instagram-btn {
     color: white;
 }
@@ -81,6 +96,8 @@ p.text-body-emphasis {
 .instagram-text {
     width: 100%;
     color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .bottom-content {
@@ -96,10 +113,10 @@ p.text-body-emphasis {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 footer.py-3.my-4 {
     background-color: rgba(0, 0, 0, .5) !important;
     margin: auto !important;
+    width: 100% !important;
 }
 
 footer.py-3.my-4 a {
@@ -107,6 +124,14 @@ footer.py-3.my-4 a {
 }
 
 @media (max-width: 995px){
+    nav {
+        height: 150px !important;
+        background-color: black !important;
+    }
+
+    .logo {
+        height: 70px;
+    }
 
     h1.slab-heading {
         transform: translate(0, -120px);
@@ -128,23 +153,26 @@ footer.py-3.my-4 a {
 }
 
 @media (max-width: 500px){
-
+    .logo {
+        height: 70px;
+    }
+    
     h1.slab-heading {
        margin-left: auto;
        width: 100%;
        margin-top: auto;
-       font-size: 28px;
-       transform: translate(0, -130px);
+       font-size: 30px;
+       transform: translate(0, -110px);
     }
 
     .services-heading {
         font-size: 25px;
         margin-bottom: auto;
-        background-color: rgba(0, 0, 0, .2);
     }
 
     .services-heading h2{
         font-size: 25px;
+        margin-top: 100px !important;
     }
 
     .services-heading p{
@@ -156,19 +184,34 @@ footer.py-3.my-4 a {
 
     .slab {
         margin: auto;
-        height: 500px;
+        height: 450px;
     }
 
     .slab img {
-        height: 500px;
+        height: 440px;
     }
 
     .insta-sc {
         background-size: 100%;
         height: 110px;
     }
+}
 
-    .px-4 {
-        background-color: rgba(0, 0, 0, .2);
+@media (max-width: 400px) {
+
+    .logo {
+        height: 50px;
     }
+
+    h1.slab-heading {
+        font-size: 28px;
+        transform: translate(0, -150px);
+     }
+}
+
+@media (max-width: 300px) {
+    h1.slab-heading {
+        font-size: 24px;
+        transform: translate(0, -150px);
+     }
 }
