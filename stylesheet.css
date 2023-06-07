@@ -34,7 +34,6 @@ p {
 
 h1.slab-heading {
     color: rgba(0, 0, 0, 7) !important;
-
     font-size: 50px;
     transform: translate(0, 100px);
 }
@@ -150,8 +149,16 @@ footer.py-3.my-4 a:hover {
         height: 70px;
     }
 
+    .slab {
+        height: 800px;
+    }
+
+    .slab img {
+        height: 700px;
+    }
+
     h1.slab-heading {
-        transform: translate(0, -120px);
+        transform: translate(0, -40px);
      }
  
 
