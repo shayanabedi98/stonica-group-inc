@@ -15,6 +15,11 @@ p {
     margin: auto;
 }
 
+.nav-item a:hover {
+    color: grey !important;
+    transition-duration: 300ms;
+}
+
 .logo {
     height: 100px;
 }
@@ -128,6 +133,11 @@ footer.py-3.my-4 {
 
 footer.py-3.my-4 a {
     color: white !important;
+}
+
+footer.py-3.my-4 a:hover {
+    color: grey !important;
+    transition-duration: 300ms;
 }
 
 @media (max-width: 995px){
